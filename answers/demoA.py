@@ -69,3 +69,4 @@ for c in ctrs.ctrs:
 
 # TODONE: 5b. Save the new output image
 imOut.save('outputs/vorPark02.jpg')
+imOut.show()

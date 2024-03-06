@@ -31,6 +31,8 @@ pix = imOut.load()
 ## #TODO Step 2: Create a new deck
 
 ## #TODO Step 3: Enqueue the centers, mark all the centers as "processed"
+
+## #TODO Step 4: Iterate through all the points in the deck, find neighbours, enqueue if needed
     
 # TODO: 4. save the output image
 imOut.save('outputs/voronoiPark_fast.png')
@@ -49,3 +51,4 @@ for c in ctrs.ctrs:
 
 # TODO: 5b. Save the new output image
 imOut.save('outputs/vorPark02.jpg')
+imOut.show()
